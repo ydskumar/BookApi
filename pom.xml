@@ -6,9 +6,7 @@
 	<groupId>com.org</groupId>
 	<artifactId>BookApi</artifactId>
 	<version>${revision}</version>
-
 	<name>BookApi</name>
-
 
 	<properties>
 		<java.version>17</java.version>
@@ -92,11 +90,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
-			<url>http://localhost:8081/repository/booksapi-snapshots/</url>
+			<url>http://nexus:8081/repository/booksapi-snapshots/</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus-releases</id>
-			<url>http://localhost:8081/repository/bookapi-releases/</url>
+			<url>http://nexus:8081/repository/booksapi-releases/</url>
 		</repository>
 	</distributionManagement>
 
